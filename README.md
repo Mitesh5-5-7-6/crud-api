@@ -41,22 +41,24 @@ https://crud-api-kk1s.onrender.com/users
     "email": "john@example.com"
   }
 ]
-
+```
 ### 🔹 POST /users
+```json
 {
   "name": "John",
   "email": "john@example.com"
 }
-
+```
 ### 🔹 PATCH /users/:id
+```json
 {
   "name": "Updated Name"
 }
-
+```
 ### 🔹 DELETE /users/:id
 
 # Run Local
 npm install
 node server.js
-
+        
 http://localhost:3000
